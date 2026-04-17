@@ -52,5 +52,6 @@ __MACOSX/
 # ─── Claude Code ────────────────────────────────────────────────────────────────
 .claude/
 
-# ─── Materiais do curso (não versionados) ───────────────────────────────────────
+# ─── Pastas não versionadas ─────────────────────────────────────────────────────
 utils/
+agno-storage/agent-ui/
