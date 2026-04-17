@@ -1,0 +1,56 @@
+# ─── Segredos e configurações locais ───────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Ambientes virtuais ─────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ─── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[oc]
+*.pyo
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+*.egg
+
+# ─── uv ─────────────────────────────────────────────────────────────────────────
+uv.lock
+
+# ─── Bancos de dados e armazenamento local ──────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+tmp/
+
+# ─── Node.js (agent-ui) ─────────────────────────────────────────────────────────
+node_modules/
+.next/
+.nuxt/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── IDEs e editores ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── macOS ──────────────────────────────────────────────────────────────────────
+__MACOSX/
+.DS_Store
+
+# ─── Claude Code ────────────────────────────────────────────────────────────────
+.claude/
+
+# ─── Materiais do curso (não versionados) ───────────────────────────────────────
+utils/
