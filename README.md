@@ -82,6 +82,8 @@ uv sync
 
 # 5. Crie o arquivo .env com suas chaves (veja tabela acima)
 # 6. Execute o script desejado
+uv run nome-do-script.py
+ou
 python nome-do-script.py
 ```
 
